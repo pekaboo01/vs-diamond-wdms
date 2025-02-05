@@ -26,6 +26,8 @@ export default function HomePersonnel() {
         <div className="wrapper-personnel">
             <title>Dashboard</title>
 
+            <h1>sample</h1>
+
             <Link to="/personnel-patient-record">
                 <button className="personnel-patient-record-button">
                     Manage Patient Record
@@ -47,7 +49,6 @@ export default function HomePersonnel() {
             <Link to="/homepage">
                 <button         className="logout-button">Logout</button>
             </Link>
-
 
             <Header />
             <div className="def-wrapper-personnel">
