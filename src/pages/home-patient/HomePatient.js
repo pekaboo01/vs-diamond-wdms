@@ -22,15 +22,28 @@ import Copyright from "../../components/copyright/Copyright"
 import { Link } from "react-router-dom"
 
 export default function HomePatient() {
+
+    
     return (
         <div className="wrapper-patient">
             <title>Dashboard</title>
 
             <Header />
-            <h2>Patient Page</h2>
             <div className="links">
-                <Link to="/#" className="home">Home</Link>
                 <Link to="/About" className="about">About</Link>
+                <Link to="/Faqs" className="faqs">FAQS</Link>
+                <Link to="/Contact" className="faqs">Contact Us</Link>
+                <Link to="/patient-th">
+                    <button className="patient-th-button">Treatment History</button>
+                </Link>
+                <Link to="/change-password">
+                    <button className="patient-change-password">Change Password</button>
+                </Link>
+                <Link to="/homepage">
+                    <button className="logout-button">Logout</button>
+                </Link>
+                
+
             </div>
             <div className="def-wrapper">
                 <p className="def">A premier dental clinic in the south Cebu City, Philippines ready to bring brighter smiles with excellent service at affordable rates. </p>

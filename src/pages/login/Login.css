@@ -1,0 +1,75 @@
+.login-container {
+  margin-top: 200px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  width: 330px;
+}
+
+.welcome-text {
+  font-family: 'Roboto';
+  font-size: 42px;
+  font-weight: 700;
+  color: #595757;
+}
+
+.enter-credentials-text {
+  display: block;
+  font-size: 22px;
+  font-weight: 300;
+}
+
+.email-input {
+  display: block;
+  margin: 40px 0 25px 0;
+  padding: 12px 0 12px 20px;
+  border: solid 1x;
+  border-radius: 7px;
+  border-color: #C29E38;
+  font-size: 17px;
+}
+
+.password-input {
+  display: block;
+  padding: 12px 0 12px 20px;
+  border: solid 1x;
+  border-radius: 7px;
+  border-color: #C29E38;
+  margin-bottom: 30px;
+  font-size: 17px;
+}
+
+.forgot-password {
+  font-family: 'Roboto';
+  color: #595757;
+  align-self: flex-end;
+  margin-bottom: 20px;
+  font-weight: 0;
+}
+
+.signin-button {
+  background-color: #C29E38;
+  border: none;
+  border-radius: 3px;
+  padding: 8px 15px 8px 15px;
+  margin: 0;
+  color: #EBE5C9;
+  font-family: 'Arial';
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+.signup-text-container, .signup-link-text {
+  align-self: center;
+  color: #595757;
+}
+
+.signup-link-text {
+  font-family: 'Roboto';
+  font-weight: 600;
+}
+
+

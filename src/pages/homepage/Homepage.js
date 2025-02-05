@@ -22,17 +22,40 @@ import "./Homepage.css";
 import Header from "../../components/head-homepage/HeadHomepage"
 import image from "../../assets/index/image.png";
 import Copyright from "../../components/copyright/Copyright"
+import { useNavigate } from "react-router-dom";
+
 
 const Homepage = () => {
 
+    const navigate = useNavigate();
+
     return (
         <div className="index-wrapper1">
-            <title>VSDiamond Dental Website - Login or Register</title>
+            <title>VSDiamond Dental Website - Homepage</title>
 
             <Header />
 
+            <div className="clinic-motto-and-information-container">
+                <p className="clinic-motto">
+                    Smile Bright 
+                    <span className="clinic-motto-second-line">Like a Diamond</span>
+                </p>
+                <button className="view-our-services-button"
+                    onClick={() => navigate("/view-services")}
+                >
+                    View Our Services
+                </button>
+
+                <button className="view-dental-portfolio-button"
+                    onClick={() => navigate("/view-dental-portfolio")}
+                >
+                    View Dental Portfolio
+                </button>
+            </div>
+
             <div className="image-container">
                 <img src={image} className="image-bg"/>
+                
             </div>
             <Copyright/>
         </div>

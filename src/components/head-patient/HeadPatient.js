@@ -36,7 +36,7 @@ const HeadPatient = () => {
                 </div>
             </div>
             <IoIosNotifications className="icons"/>
-            <Link to="/AppointmentPatient">
+            <Link to="/patient-appointment">
                 <button type="button" className="manage">BOOK APPOINTMENT</button>
             </Link>
             <div className="menu-wrapper-patient">

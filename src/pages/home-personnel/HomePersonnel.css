@@ -8,18 +8,6 @@
     background-position: center;
 }
 
-.links {
-    font-size: 30px;
-}
-
-.links .home{
-    margin-right: 20px;
-}
-
-.links .about{
-    margin-right: 20px;
-}
-
 .def-wrapper-personnel {
     bottom: 0;
     margin-bottom: 10%;
@@ -50,4 +38,60 @@
     font-family: "Inter";
     color: #BC8F37;
     text-shadow: 3px 2px black;
+}
+
+.personnel-patient-record-button{
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
+}
+
+.revenue-report-button{
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
+}
+
+.manage-inventory-button {
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 100%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
 }

@@ -12,7 +12,7 @@
     font-size: 30px;
 }
 
-.links .home{
+.links .faqs{
     margin-right: 20px;
 }
 
@@ -50,4 +50,46 @@
     font-family: "Inter";
     color: #BC8F37;
     text-shadow: 3px 2px black;
+}
+
+.patient-th-button {
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
+}
+
+.patient-change-password {
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
+}
+
+.logout-button {
+    margin-right: 10%;
+    padding: 10px 20px 10px 20px;
+    width: 30%;
+    height: auto;
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    font-size: 15px;
+    font-family: "Roboto", serif;
+    background: #BFBC8D;
+    cursor: pointer;
 }

@@ -22,12 +22,11 @@ import logo from "../../assets/head/logo.png";
 import facebook from "../../assets/homepage/facebook.png";
 import instagram from "../../assets/homepage/instagram.png";
 import tiktok from "../../assets/homepage/tiktok.png";
-import menu from "../../assets/homepage/menu.png";
-import { IoIosNotifications } from "react-icons/io";
-import { IoMenuSharp } from "react-icons/io5";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 const HeadHomepage = () => {
+
+    const navigate = useNavigate();
     return (
         <div className="header-wrapper1">
             <div className="logo-containers">
@@ -49,9 +48,12 @@ const HeadHomepage = () => {
                 <img src={instagram} className="socmed"/>
                 <img src={tiktok} className="socmed"/>
             </div>
-            <Link to="/AppointmentPatient">
-                <button type="button" className="header-sign-in-button">Sign in</button>
-            </Link>
+            
+            <button type="button" className="header-sign-in-button"
+            onClick={() => navigate("/login")}
+            >Sign in
+            </button>
+           
         </div>
     )
 }

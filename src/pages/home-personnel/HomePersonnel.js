@@ -26,12 +26,30 @@ export default function HomePersonnel() {
         <div className="wrapper-personnel">
             <title>Dashboard</title>
 
+            <Link to="/personnel-patient-record">
+                <button className="personnel-patient-record-button">
+                    Manage Patient Record
+                </button>
+            </Link>
+
+            <Link to="/personnel-revenue-report">
+                <button className="revenue-report-button">
+                    Revenue Report
+                </button>
+            </Link>
+
+            <Link to="/personnel-manage-inventory">
+                <button className="manage-inventory-button">
+                    Manage Inventory
+                </button>
+            </Link>
+
+            <Link to="/homepage">
+                <button         className="logout-button">Logout</button>
+            </Link>
+
+
             <Header />
-            <h2 className="text">Personnel Page</h2>
-            <div className="links">
-                <Link to="/#" className="home">Home</Link>
-                <Link to="/About" className="about">About</Link>
-            </div>
             <div className="def-wrapper-personnel">
                 <p className="def-personnel">A premier dental clinic in the south Cebu City, Philippines ready to bring brighter smiles with excellent service at affordable rates. </p>
             </div>

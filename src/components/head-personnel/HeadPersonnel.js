@@ -20,6 +20,7 @@ import "./HeadPersonnel.css"
 import React from "react";
 import logo from "../../assets/head/logo.png";
 import { IoIosNotifications } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 const HeadPersonnel = () => {
     return (
@@ -34,7 +35,9 @@ const HeadPersonnel = () => {
                 </div>
             </div>
             <IoIosNotifications className="icons"/>
-            <button type="button" className="manage">MANAGE APPOINTMENT</button>
+            <Link to="/personnel-manage-appointment"> 
+                <button type="button" className="manage">MANAGE APPOINTMENT</button>
+            </Link>
         </div>
     )
 }
