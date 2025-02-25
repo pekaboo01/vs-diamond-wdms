@@ -9,6 +9,7 @@ import Modal from "react-modal";  // Import Modal component for modals
 Modal.setAppElement("#root");   // Set the root element for the Modal component
 
 const PatientAppointmentBooking = () => {
+  
   // State variables 
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
