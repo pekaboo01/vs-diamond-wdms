@@ -9,7 +9,7 @@ import Modal from "react-modal";  // Import Modal component for modals
 Modal.setAppElement("#root");   // Set the root element for the Modal component
 
 const PatientAppointmentBooking = () => {
-  
+
   // State variables 
   const [currentUser, setCurrentUser] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -27,6 +27,7 @@ const PatientAppointmentBooking = () => {
 
   // List of available services with their estimated times (in minutes)
   const servicesList = [
+    
     { name: "Dental Bonding", time: 45 },
     { name: "Dental Crowns", time: 75 },
     { name: "Teeth Whitening", time: 45 },
